@@ -1,9 +1,6 @@
-/*
-TODO
-Import clientId from another file and add that file to my .gitignore
-*/
+import {clientId as id} from '../../private/config';
 
-const clientId = 'c911a266800c47739b98b7620ec0ee61';
+const clientId = id;
 const redirectUri = 'http://localhost:3000/';
 
 let accessToken;
