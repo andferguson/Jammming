@@ -1,4 +1,4 @@
-import {clientId as id} from '../../private/config';
+import {clientId as id} from '../../config';
 
 const clientId = id;
 const redirectUri = 'http://localhost:3000/';
