@@ -12,5 +12,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "git-scripts": "^0.2.1",
+    "surge": "^0.19.0"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./build --domain familiar-lead.surge.sh"
+    }
   }
 }

@@ -1,7 +1,7 @@
 import {clientId as id} from '../../config';
 
 const clientId = id;
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'http://familiar-lead.surge.sh';
 
 let accessToken;
 
